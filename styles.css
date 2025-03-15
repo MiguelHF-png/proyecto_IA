@@ -1,0 +1,84 @@
+/* styles.css - Estilos mejorados */
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1a1a1a !important;
+    padding: 12px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand .logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #facc15 !important;
+}
+
+/* Banner */
+.banner-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.text-container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 80%;
+    margin-top: 20px;
+}
+
+/* Galería */
+#galeria img {
+    transition: transform 0.3s ease-in-out;
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonios */
+#testimonios blockquote {
+    font-style: italic;
+    border-left: 5px solid #facc15;
+    padding-left: 15px;
+}
+
+/* Botón con acento */
+.btn-neon {
+    background-color: #facc15;
+    color: #1a1a1a;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-neon:hover {
+    background-color: #d4a80d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(250, 204, 21, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}
